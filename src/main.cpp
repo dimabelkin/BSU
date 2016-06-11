@@ -19,7 +19,7 @@ void main()
 	int MaxIter, FullTaskSize, BlockSize;
 	double eps;
 
-	InputSparseComplexBlockSLAE("../resources/IN_data", Cdi, Cggl, Cig, Cjg, Cidi, Cijg, Cright_part, FullTaskSize, BlockSize, eps,
+	InputSparseComplexBlockSLAE(Cdi, Cggl, Cig, Cjg, Cidi, Cijg, Cright_part, FullTaskSize, BlockSize, eps,
 		MaxIter, VectorForCheckMatrixVectorSLAEMultiplication);
 
 	//inputSparceBlockMatrix_from_txt("../resources/IN_data/testSLAE2.txt", Cdi, Cggl, Cig, Cjg,
